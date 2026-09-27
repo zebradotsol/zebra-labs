@@ -1,0 +1,17 @@
+/target
+/programs/**/target
+**/*.rs.bk
+Cargo.lock
+
+node_modules/
+dist/
+.anchor/
+test-ledger/
+
+.env
+*.env.local
+
+services/keeper/keeper-state.json
+services/indexer/events.jsonl
+
+.DS_Store

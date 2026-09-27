@@ -1,0 +1,22 @@
+{
+  "name": "@zebra/indexer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Watches Zebra program events on Solana and serves /explore and /coin/:mint over HTTP.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
