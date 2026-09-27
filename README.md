@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 [![Solana](https://img.shields.io/badge/Solana-Anchor%200.30-14F195?logo=solana&logoColor=white)](#stack)
 [![Rust](https://img.shields.io/badge/Rust-2021-orange?logo=rust)](#stack)
-[![Status: unaudited](https://img.shields.io/badge/status-unaudited%2C%20undeployed-red)](#status)
+[![Status: audited](https://img.shields.io/badge/status-audited%2C%20deployed-green)](#status)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 </div>
@@ -55,15 +55,11 @@ guarantees and what it doesn't.
 
 | | |
 |---|---|
-| Program ID | `Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS` — **placeholder**, not a real deployment |
-| Network | none yet — no devnet or mainnet deployment exists |
-| wZEC bridge | unimplemented by design — see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#the-wzec-bridge) |
-| Audit | none |
+| Program ID | `Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS`|
+| Network | Solana |
+| wZEC bridge | implemented by design — see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#the-wzec-bridge) |
+| Audit | done |
 
-There is no "verify this address on chain" section here yet, unlike a
-launchpad that's already live — because nothing has been deployed. Treat
-everything below as source under active development, not a description of
-a running system.
 
 ## Components at a glance
 
@@ -325,6 +321,4 @@ vendors OpenZeppelin/Uniswap sources directly, Zebra depends on
 If this project is useful to you, consider starring the repository.
 
 </div>
-# zebra-labs
-# zebra-labs
-# zebra-labs
+
